@@ -1,0 +1,13 @@
+# .NET generated files
+**/bin/
+**/obj/
+.vs/
+
+# React dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# Environment files
+.env
+.env.*
+!.env.example
