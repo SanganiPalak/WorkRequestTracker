@@ -1,4 +1,4 @@
-# Work Request Tracker — FlexGCC Practical Assignment
+# Work Request Tracker
 
 A small, straightforward implementation using **ASP.NET Core Web API (.NET 8)**, **Entity Framework Core + SQL Server**, and **React (Vite)**.
 
@@ -36,7 +36,7 @@ The source files in this folder are already arranged as a .NET project.
 ### Configure SQL Server
 Open `backend/WorkRequestTracker.Api/appsettings.json`. The included connection string uses LocalDB:
 
-`Server=(localdb)\\MSSQLLocalDB;Database=FlexGccWorkRequests;Trusted_Connection=True;TrustServerCertificate=True;`
+`Server=(localdb)\\MSSQLLocalDB;Database=YourDatabaseName;Trusted_Connection=True;TrustServerCertificate=True;`
 
 If your SQL Server instance is different, update `ConnectionStrings:DefaultConnection`.
 
